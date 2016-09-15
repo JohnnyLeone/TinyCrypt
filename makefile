@@ -27,4 +27,4 @@ testARC4.o: testARC4.c encrypt.c
 	gcc -c $(CFLAGS) testARC4.c -o testARC4.o
 
 clean:
-	rm -f *.o
+	rm -f *.o tinycrypt microcrypt testARC4
